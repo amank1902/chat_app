@@ -66,6 +66,6 @@ npm start
 🔹 Start the Frontend
 ```bash
 cd frontend
-npm start
+npm run dev
 ```
 The app will be running at http://localhost:5173 🚀
