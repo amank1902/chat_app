@@ -7,7 +7,8 @@ A **real-time chat application** built with the **MERN stack**, featuring **Sock
 ## 🌟 Features  
 - ✅ **Authentication & Authorization** (JWT)  
 - ✅ **Real-time messaging** with **Socket.io**  
-- ✅ **Online user status** tracking  
+- ✅ **Online user status** tracking
+- ✅ **Profile photos & image sharing** via **Cloudinary**  
 - ✅ **Global state management** using **Zustand**  
 - ✅ **Responsive UI** with **TailwindCSS + Daisy UI**  
 - ✅ **Error handling** (both client & server)  
@@ -18,7 +19,8 @@ A **real-time chat application** built with the **MERN stack**, featuring **Sock
 - **Frontend**: React.js, TailwindCSS, Daisy UI, Zustand  
 - **Backend**: Node.js, Express.js, MongoDB  
 - **Real-time Communication**: Socket.io  
-- **Authentication**: JSON Web Tokens (JWT)  
+- **Authentication**: JSON Web Tokens (JWT)
+- **Image Uploads & Storage**: Cloudinary  
 - **Deployment**: Render
 
 ---
@@ -48,6 +50,10 @@ Create a .env file in the backend/ folder and configure:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 SOCKET_SERVER=http://localhost:5000
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
 ```
 🚀 Running the App
 🔹 Start the Backend
